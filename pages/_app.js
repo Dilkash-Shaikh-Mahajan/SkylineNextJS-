@@ -1,7 +1,14 @@
-import '../styles/globals.css'
+import Layout from '../Components/Common/Layout';
+import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+	return (
+		<div className='font-Inter'>
+			<Layout>
+				<Component {...pageProps} />
+			</Layout>
+		</div>
+	);
 }
 
-export default MyApp
+export default MyApp;
