@@ -29,7 +29,9 @@ const Footer = () => {
 									<span className='font-semibold'>
 										Email Address
 									</span>{' '}
-									sales@teqfocus.com
+									<a href='mailto:hr@skylinecloudforce.com'>
+										hr@skylinecloudforce.com
+									</a>
 								</p>
 								<p className='text-base text-gray-400'>
 									<span className='font-semibold'>
