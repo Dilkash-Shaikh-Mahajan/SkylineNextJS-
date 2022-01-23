@@ -9,7 +9,7 @@ const SingleNews = () => {
 					alt=''
 				/>
 				<h1 className='text-2xl font-medium mt-4 hover:text-blue-500'>
-					Teqfocus is now an AWS Advanced Consulting Partner
+					SkyLine is now an AWS Advanced Consulting Partner
 				</h1>
 			</div>
 		</div>

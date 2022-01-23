@@ -12,7 +12,7 @@ import 'swiper/css';
 import TestimonialOne from './TestimonialOne';
 const Testimonial = () => {
 	return (
-		<div className='bg-gray-50 w-full pt-12 p-3 pr-4 '>
+		<div className=' w-full pt-12 p-3 pr-4 '>
 			<h3 className='text-center text-2xl text-black mb-12 font-medium lg:font-bold lg:text-5xl'>
 				<span className='text-blue-500'>
 					Don’t take our word for it
@@ -28,7 +28,7 @@ const Testimonial = () => {
 					spaceBetween={50}
 					slidesPerView={1}
 					pagination={true}
-					className='mySwiper'
+					className='mySwiper mb-5'
 					breakpoints={{
 						640: {
 							slidesPerView: 2,
@@ -55,19 +55,19 @@ const Testimonial = () => {
 						<SwiperSlide>
 							<TestimonialOne />
 						</SwiperSlide>
-						<SwiperSlide>
-							<TestimonialOne />
-						</SwiperSlide>
-						<SwiperSlide>
-							<TestimonialOne />
-						</SwiperSlide>
-						<SwiperSlide>
-							<TestimonialOne />
-						</SwiperSlide>
-						<SwiperSlide>
-							<TestimonialOne />
-						</SwiperSlide>
 					</div>
+					<SwiperSlide>
+						<TestimonialOne />
+					</SwiperSlide>
+					<SwiperSlide>
+						<TestimonialOne />
+					</SwiperSlide>
+					<SwiperSlide>
+						<TestimonialOne />
+					</SwiperSlide>
+					<SwiperSlide>
+						<TestimonialOne />
+					</SwiperSlide>
 				</Swiper>
 			</div>
 		</div>
