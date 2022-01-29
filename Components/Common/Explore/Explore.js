@@ -6,7 +6,7 @@ const Explore = () => {
 			<h3 className='text-center text-3xl mb-8 text-blue-500 font-medium'>
 				Explore
 			</h3>
-			<div className='grid gap-4 grid-cols-3 '>
+			<div className='grid gap-4 grid-cols-1 lg:grid-cols-3 '>
 				<Card title='Blogs' />
 				<Card title='eBooks & Whitepapers' />
 				<Card title='Case Studies' />

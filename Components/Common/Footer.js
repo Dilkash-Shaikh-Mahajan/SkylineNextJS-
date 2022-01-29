@@ -11,33 +11,33 @@ const Footer = () => {
 					aria-label='footer'
 					className='focus:outline-none border-gray-200 dark:border-gray-700 py-16 pb-6'>
 					<div className='mx-auto lg:container px-4 xl:px-12 2xl:px-4'>
-						<div className='w-full grid gap-4 grid-cols-3  lg:w-full mb-6 lg:mb-0 flex'>
+						<div className='w-full grid grid-cols-1 lg:gap-4 lg:grid-cols-3  lg:w-full mb-6 lg:mb-0 '>
 							<div className='w-full px-6'>
 								<p className='text-base mb-4 uppercase text-gray-800 font-bold'>
 									Our Offices
 								</p>
 								<p className='text-base font-semibold text-gray-400'>
-									Canada (Headquarters)
+									Plot No. 19/20, Shesh Nagar
 								</p>
 								<p className='text-base font-semibold text-gray-400'>
-									786 King St W, Toronto,
+									Kharabi Road,
 								</p>
 								<p className='text-base font-semibold text-gray-400'>
-									ON M5V 1N6
+									Nagpur - 440009
 								</p>
 								<p className='text-base text-gray-400'>
 									<span className='font-semibold'>
 										Email Address
 									</span>{' '}
 									<a href='mailto:hr@skylinecloudforce.com'>
-										hr@skylinecloudforce.com
+										hrmanager@skylinecloudforce.com
 									</a>
 								</p>
 								<p className='text-base text-gray-400'>
 									<span className='font-semibold'>
 										Phone Number
 									</span>{' '}
-									(647) 503-4889
+									<a href='tel:9579569323'>9579569323</a>
 								</p>
 							</div>
 							<div className='w-full my-8 lg:my-0 px-6'>

@@ -7,7 +7,7 @@ const News = () => {
 			<h1 className='text-3xl text-blue-500 font-medium mb-5'>
 				News And Events
 			</h1>
-			<div className='grid gap-4 grid-cols-3'>
+			<div className='grid gap-4 grid-cols-1 lg:grid-cols-3'>
 				<SingleNews />
 				<SingleNews />
 				<SingleNews />
